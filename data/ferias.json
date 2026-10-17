@@ -7,7 +7,8 @@
       "nombre": "Feria de Artesanía de la Plaza",
       "lugar": "Plaza de Armas, Coyhaique",
       "descripcion": "Stand con prendas de lana de oveja natural, hilado propio.",
-      "futura": true
+      "futura": true,
+      "imagen": ""
     },
     {
       "fecha": "5 de diciembre 2026",
@@ -16,7 +17,18 @@
       "nombre": "Expo Tejidos del Sur",
       "lugar": "Gimnasio Municipal, Coyhaique",
       "descripcion": "Feria de fin de año, con demostración de hilado en vivo.",
-      "futura": true
+      "futura": true,
+      "imagen": ""
+    },
+    {
+      "fecha": "9 y 12 de octubre 2026",
+      "mes": "Oct",
+      "dia": "9-12",
+      "nombre": "Flor de Fiesta",
+      "lugar": "Parque Urbano, Coyhaique",
+      "descripcion": "Aniversario Coyhaique.",
+      "futura": false,
+      "imagen": "/img/flor-de-fiesta26.jpg"
     }
   ]
 }
