@@ -7,7 +7,7 @@
       "precio": 45000,
       "estado": "disponible",
       "descripcion": "Tejido a palillo grueso, sin costuras laterales.",
-      "imagen": "chaleco-1.jpg"
+      "imagen": "/img/chaleco-merino-2.png"
     },
     {
       "nombre": "Chal de abrigo",
@@ -15,7 +15,8 @@
       "material": "Lana de oveja natural, hilado a mano",
       "precio": 38000,
       "estado": "disponible",
-      "descripcion": "Punto amplio, liviano y muy abrigador."
+      "descripcion": "Punto amplio, liviano y muy abrigador.",
+      "imagen": ""
     },
     {
       "nombre": "Gorro con pompón",
@@ -23,7 +24,8 @@
       "material": "Lana de oveja natural",
       "precio": 15000,
       "estado": "disponible",
-      "descripcion": "Pompón de lana cardada."
+      "descripcion": "Pompón de lana cardada.",
+      "imagen": ""
     },
     {
       "nombre": "Bufanda larga",
@@ -31,7 +33,8 @@
       "material": "Lana de oveja natural",
       "precio": 22000,
       "estado": "disponible",
-      "descripcion": "Punto inglés, se puede usar cruzada."
+      "descripcion": "Punto inglés, se puede usar cruzada.",
+      "imagen": ""
     },
     {
       "nombre": "Manta de sofá",
@@ -39,7 +42,8 @@
       "material": "Lana de oveja natural, hilado artesanal",
       "precio": 85000,
       "estado": "disponible",
-      "descripcion": "Tejida en telar, medida aproximada 1,2 x 1,6 m."
+      "descripcion": "Tejida en telar, medida aproximada 1,2 x 1,6 m.",
+      "imagen": ""
     }
   ]
 }
