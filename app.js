@@ -230,34 +230,11 @@ function inicializarAnimaciones() {
   document.querySelectorAll(".aparece").forEach((el) => observador.observe(el));
 }
 
-
-/* ---------- Fotos principales (portada y "Sobre mí") ---------- */
-
-function pintarFotoPrincipal() {
-  document.querySelectorAll("[data-foto]").forEach((caja) => {
-    const archivo = caja.getAttribute("data-foto");
-    const respaldo = caja.querySelector(".foto-vacia");
-    const img = new Image();
-
-    img.onload = () => {
-      caja.innerHTML = "";
-      caja.appendChild(img);
-    };
-    img.onerror = () => {
-      if (respaldo) respaldo.hidden = false;
-    };
-    img.alt = "Manos Creativas";
-    img.loading = "lazy";
-    img.src = "img/" + archivo;
-  });
-}
-
 /* ---------- Arranque ---------- */
 
 document.addEventListener("DOMContentLoaded", () => {
   inicializarMenu();
   pintarDatosGenerales();
-  pintarFotoPrincipal();
   pintarGaleria();
   pintarFerias();
   pintarFotosFerias();

@@ -27,7 +27,7 @@ const PRODUCTOS = [
     precio: 45000,
     estado: "disponible",
     descripcion: "Tejido a palillo grueso, sin costuras laterales.",
-    imagen: "pendiente"
+    imagen: "chaleco-1.jpg"
   },
 
   {
