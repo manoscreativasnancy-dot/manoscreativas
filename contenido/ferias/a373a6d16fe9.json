@@ -5,6 +5,6 @@
   "nombre": "Flor de Fiesta",
   "lugar": "Parque Urbano, Coyhaique.",
   "descripcion": "Fiesta celebración aniversario Coyhaique.",
-  "futura": true,
+  "futura": false,
   "imagen": "/img/flor-de-fiesta26.jpg"
 }
