@@ -1,0 +1,126 @@
+# ============================================================
+#  Panel de administración (Sveltia CMS)
+#  Edita los archivos JSON de la carpeta data/. El sitio los
+#  lee directamente, así que lo que se guarda aparece al publicar.
+# ============================================================
+
+backend:
+  name: github
+  repo: manoscreativasnancy-dot/manoscreativas
+  branch: main
+  # Si despliegas el Worker de login (sveltia-cms-auth), descomenta:
+  # base_url: https://TU-WORKER.workers.dev
+
+media_folder: "img"
+public_folder: "/img"
+
+locale: "es"
+
+collections:
+
+  # ---------------- TEJIDOS ----------------
+  - name: "productos"
+    label: "Tejidos"
+    files:
+      - name: "lista"
+        label: "Lista de tejidos"
+        file: "data/productos.json"
+        fields:
+          - name: "items"
+            label: "Tejidos"
+            label_singular: "Tejido"
+            widget: "list"
+            summary: "{{fields.nombre}} — ${{fields.precio}}"
+            fields:
+              - { name: "nombre", label: "Nombre de la prenda", widget: "string" }
+              - name: "categoria"
+                label: "Categoría"
+                widget: "select"
+                options:
+                  - { label: "Chaleco", value: "chaleco" }
+                  - { label: "Chal", value: "chal" }
+                  - { label: "Gorro", value: "gorro" }
+                  - { label: "Bufanda", value: "bufanda" }
+                  - { label: "Manta", value: "mantas" }
+                  - { label: "Otro", value: "otro" }
+              - { name: "material", label: "Material", widget: "string", default: "Lana de oveja natural" }
+              - { name: "precio", label: "Precio (solo números)", widget: "number", value_type: "int" }
+              - name: "estado"
+                label: "Estado"
+                widget: "select"
+                default: "disponible"
+                options:
+                  - { label: "Disponible", value: "disponible" }
+                  - { label: "Vendido", value: "vendido" }
+                  - { label: "Por encargo", value: "encargo" }
+              - { name: "descripcion", label: "Descripción", widget: "text", required: false }
+              - { name: "imagen", label: "Foto", widget: "image", required: false,
+                  hint: "Si todavía no tienes foto, deja este campo vacío." }
+
+  # ---------------- FERIAS ----------------
+  - name: "ferias"
+    label: "Ferias"
+    files:
+      - name: "lista"
+        label: "Lista de ferias"
+        file: "data/ferias.json"
+        fields:
+          - name: "items"
+            label: "Ferias"
+            label_singular: "Feria"
+            widget: "list"
+            summary: "{{fields.fecha}} — {{fields.nombre}}"
+            fields:
+              - { name: "fecha", label: "Fecha (como se mostrará)", widget: "string",
+                  hint: "Ej: 15 y 16 de noviembre 2026" }
+              - { name: "mes", label: "Mes corto", widget: "string", hint: "Tres letras. Ej: Nov" }
+              - { name: "dia", label: "Día(s)", widget: "string", hint: "Ej: 15-16" }
+              - { name: "nombre", label: "Nombre de la feria", widget: "string" }
+              - { name: "lugar", label: "Lugar y ciudad", widget: "string" }
+              - { name: "descripcion", label: "Descripción", widget: "text", required: false }
+              - { name: "futura", label: "¿Todavía no ocurre?", widget: "boolean", default: true }
+              - { name: "imagen", label: "Foto", widget: "image", required: false,
+                  hint: "Si todavía no tienes foto, deja este campo vacío." }
+
+  # ---------------- TEXTOS Y DATOS ----------------
+  - name: "textos"
+    label: "Textos del sitio"
+    files:
+      - name: "portada"
+        label: "Página de inicio"
+        file: "data/textos.json"
+        fields:
+          - name: "portada"
+            label: "Portada"
+            widget: "object"
+            fields:
+              - { name: "titulo", label: "Título grande", widget: "string" }
+              - { name: "bajada", label: "Párrafo de bajada", widget: "text" }
+              - { name: "bloque_titulo", label: "Título del segundo bloque", widget: "string" }
+              - { name: "bloque_texto", label: "Texto del segundo bloque", widget: "text" }
+          - name: "recuadros"
+            label: "Los tres recuadros"
+            label_singular: "Recuadro"
+            widget: "list"
+            fields:
+              - { name: "titulo", label: "Título", widget: "string" }
+              - { name: "texto", label: "Texto", widget: "text" }
+          - name: "sobremi"
+            label: "Sobre mí"
+            widget: "object"
+            fields:
+              - { name: "titulo", label: "Título", widget: "string" }
+              - { name: "parrafos", label: "Párrafos", label_singular: "Párrafo", widget: "list", field: { name: "texto", label: "Texto", widget: "text" } }
+              - { name: "valores", label: "Lista de valores", label_singular: "Valor", widget: "list", field: { name: "texto", label: "Texto", widget: "string" } }
+
+      - name: "general"
+        label: "Datos y contacto"
+        file: "data/config.json"
+        fields:
+          - { name: "nombre", label: "Nombre del sitio", widget: "string" }
+          - { name: "artesana", label: "Nombre de quien teje", widget: "string" }
+          - { name: "whatsapp", label: "WhatsApp (56 + 9 + 8 dígitos)", widget: "string",
+              hint: "Sin + ni espacios. Ej: 56982478189" }
+          - { name: "instagram", label: "Instagram (sin @)", widget: "string", required: false }
+          - { name: "correo", label: "Correo", widget: "string", required: false }
+          - { name: "ciudad", label: "Ciudad", widget: "string" }
