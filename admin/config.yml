@@ -21,7 +21,7 @@ collections:
   - name: "productos"
     label: "Tejidos"
     label_singular: "Tejido"
-    folder: "contenido"
+    folder: "contenido/tejidos"
     create: true
     extension: "json"
     format: "json"
