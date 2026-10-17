@@ -135,6 +135,9 @@ a { color: var(--terracota); }
 
 .boton:hover { transform: translateY(-2px); }
 
+/* Íconos dentro de botones */
+.boton svg { width: 1.25em; height: 1.25em; flex: none; fill: currentColor; }
+
 .boton-wsp {
   background: var(--terracota);
   color: var(--blanco);
