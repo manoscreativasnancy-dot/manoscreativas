@@ -1,7 +1,0 @@
-# ============================================================
-#  Redirecciones del sitio
-#  Mantiene el dominio principal canónico: todo lo que llegue
-#  a www.manoscreativas.cl aterriza en manoscreativas.cl
-# ============================================================
-
-https://www.manoscreativas.cl/*  https://manoscreativas.cl/:splat  301!
