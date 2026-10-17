@@ -18,58 +18,65 @@ locale: "es"
 collections:
 
   # ---------------- TEJIDOS ----------------
-  - name: "productos"
+  - name: "tejidos"
     label: "Tejidos"
-    label_singular: "Tejido"
-    folder: "contenido/tejidos"
-    create: true
-    extension: "json"
-    format: "json"
-    summary: "{{nombre}} — {{precio}}"
-    fields:
-      - { name: "nombre", label: "Nombre de la prenda", widget: "string" }
-      - name: "categoria"
-        label: "Categoría"
-        widget: "select"
-        options:
-          - { label: "Chaleco", value: "chaleco" }
-          - { label: "Chal", value: "chal" }
-          - { label: "Gorro", value: "gorro" }
-          - { label: "Bufanda", value: "bufanda" }
-          - { label: "Manta", value: "mantas" }
-          - { label: "Otro", value: "otro" }
-      - { name: "material", label: "Material", widget: "string", default: "Lana de oveja natural" }
-      - { name: "precio", label: "Precio (solo números)", widget: "number", value_type: "int" }
-      - name: "estado"
-        label: "Estado"
-        widget: "select"
-        default: "disponible"
-        options:
-          - { label: "Disponible", value: "disponible" }
-          - { label: "Vendido", value: "vendido" }
-          - { label: "Por encargo", value: "encargo" }
-      - { name: "descripcion", label: "Descripción", widget: "text", required: false }
-      - { name: "imagen", label: "Foto", widget: "image", required: false }
-      - { name: "destacado", label: "Mostrar primero", widget: "boolean", default: false, required: false }
+    files:
+      - name: "lista"
+        label: "Lista de tejidos"
+        file: "contenido/tejidos.json"
+        fields:
+          - name: "prendas"
+            label: "Prendas"
+            label_singular: "Prenda"
+            widget: "list"
+            summary: "{{fields.nombre}} — {{fields.precio}}"
+            fields:
+              - { name: "nombre", label: "Nombre de la prenda", widget: "string" }
+              - name: "categoria"
+                label: "Categoría"
+                widget: "select"
+                options:
+                  - { label: "Chaleco", value: "chaleco" }
+                  - { label: "Chal", value: "chal" }
+                  - { label: "Gorro", value: "gorro" }
+                  - { label: "Bufanda", value: "bufanda" }
+                  - { label: "Manta", value: "mantas" }
+                  - { label: "Otro", value: "otro" }
+              - { name: "material", label: "Material", widget: "string", default: "Lana de oveja natural" }
+              - { name: "precio", label: "Precio (solo números)", widget: "number", value_type: "int" }
+              - name: "estado"
+                label: "Estado"
+                widget: "select"
+                default: "disponible"
+                options:
+                  - { label: "Disponible", value: "disponible" }
+                  - { label: "Vendido", value: "vendido" }
+                  - { label: "Por encargo", value: "encargo" }
+              - { name: "descripcion", label: "Descripción", widget: "text", required: false }
+              - { name: "imagen", label: "Foto", widget: "image", required: false, hint: "Si no tienes foto todavía, escribe: pendiente" }
 
   # ---------------- FERIAS ----------------
   - name: "ferias"
     label: "Ferias"
-    label_singular: "Feria"
-    folder: "contenido/ferias"
-    create: true
-    extension: "json"
-    format: "json"
-    summary: "{{fecha}} — {{nombre}}"
-    fields:
-      - { name: "fecha", label: "Fecha (texto libre)", widget: "string", hint: "Ej: 15 y 16 de noviembre 2026" }
-      - { name: "mes", label: "Mes corto", widget: "string", hint: "Tres letras, ej: Nov" }
-      - { name: "dia", label: "Día(s)", widget: "string", hint: "Ej: 15-16" }
-      - { name: "nombre", label: "Nombre de la feria", widget: "string" }
-      - { name: "lugar", label: "Lugar y ciudad", widget: "string" }
-      - { name: "descripcion", label: "Descripción", widget: "text", required: false }
-      - { name: "futura", label: "¿Todavía no ocurre?", widget: "boolean", default: true }
-      - { name: "imagen", label: "Foto", widget: "image", required: false }
+    files:
+      - name: "lista"
+        label: "Lista de ferias"
+        file: "contenido/ferias.json"
+        fields:
+          - name: "ferias"
+            label: "Ferias"
+            label_singular: "Feria"
+            widget: "list"
+            summary: "{{fields.fecha}} — {{fields.nombre}}"
+            fields:
+              - { name: "fecha", label: "Fecha (texto libre)", widget: "string", hint: "Ej: 15 y 16 de noviembre 2026" }
+              - { name: "mes", label: "Mes corto", widget: "string", hint: "Tres letras, ej: Nov" }
+              - { name: "dia", label: "Día(s)", widget: "string", hint: "Ej: 15-16" }
+              - { name: "nombre", label: "Nombre de la feria", widget: "string" }
+              - { name: "lugar", label: "Lugar y ciudad", widget: "string" }
+              - { name: "descripcion", label: "Descripción", widget: "text", required: false }
+              - { name: "futura", label: "¿Todavía no ocurre?", widget: "boolean", default: true }
+              - { name: "imagen", label: "Foto", widget: "image", required: false, hint: "Si no tienes foto todavía, escribe: pendiente" }
 
   # ---------------- TEXTOS DEL SITIO ----------------
   - name: "textos"
@@ -109,3 +116,4 @@ collections:
             widget: "list"
             field: { name: "texto", label: "Característica", widget: "string" }
           - { name: "foto", label: "Foto", widget: "image", required: false }
+
