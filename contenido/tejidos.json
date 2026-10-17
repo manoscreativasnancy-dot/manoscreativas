@@ -1,0 +1,13 @@
+{
+  "prendas": [
+    {
+      "nombre": "Chaleco lana merino",
+      "categoria": "chaleco",
+      "material": "Lana de oveja natural",
+      "precio": 60000,
+      "estado": "encargo",
+      "descripcion": "lana natural de merino",
+      "imagen": "/img/chaleco-merino-2.png"
+    }
+  ]
+}
