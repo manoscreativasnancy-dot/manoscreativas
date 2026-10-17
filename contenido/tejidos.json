@@ -5,7 +5,7 @@
       "categoria": "chaleco",
       "material": "Lana de oveja natural",
       "precio": 60000,
-      "estado": "vendido",
+      "estado": "disponible",
       "descripcion": "lana natural de merino",
       "imagen": "/img/chaleco-merino-2.png"
     }
