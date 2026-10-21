@@ -10,13 +10,13 @@
       "imagen": "/img/chaleco-merino-2.png"
     },
     {
-      "nombre": "Chal de abrigo",
-      "categoria": "chal",
-      "material": "Lana de oveja natural, hilado a mano",
-      "precio": 38000,
+      "nombre": "Falda Crochet",
+      "categoria": "otro",
+      "material": "100% Algodon.",
+      "precio": 48000,
       "estado": "disponible",
-      "descripcion": "Punto amplio, liviano y muy abrigador.",
-      "imagen": ""
+      "descripcion": "Falda de verano, especial para usar en la playa.",
+      "imagen": "/img/Falda-corchet-21-10.jpeg"
     },
     {
       "nombre": "Gorro con pompón",
