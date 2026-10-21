@@ -19,13 +19,13 @@
       "imagen": "/img/Falda-corchet-21-10.jpeg"
     },
     {
-      "nombre": "Gorro con pompón",
-      "categoria": "gorro",
-      "material": "Lana de oveja natural",
-      "precio": 15000,
+      "nombre": "Polera Crochet",
+      "categoria": "otro",
+      "material": "100% algodon",
+      "precio": 45000,
       "estado": "disponible",
       "descripcion": "Pompón de lana cardada.",
-      "imagen": ""
+      "imagen": "/img/polera-crochet-21-10.jpeg"
     },
     {
       "nombre": "Bufanda larga",
