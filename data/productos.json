@@ -1,12 +1,12 @@
 {
   "items": [
     {
-      "nombre": "Chaleco trenzado",
-      "categoria": "chaleco",
-      "material": "Lana de oveja natural, teñido con cáscara de cebolla",
-      "precio": 45000,
-      "estado": "disponible",
-      "descripcion": "Tejido a palillo grueso, sin costuras laterales.",
+      "nombre": "Chomba",
+      "categoria": "otro",
+      "material": "100% lana de oveja",
+      "precio": 65000,
+      "estado": "encargo",
+      "descripcion": "Tejido a palillo medio, con costuras en mangas.",
       "imagen": "/img/chaleco-merino-2.png"
     },
     {
