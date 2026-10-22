@@ -1,0 +1,37 @@
+{
+  "portada": {
+    "titulo": "Tejidos en lana de oveja natural, hechos a mano",
+    "bajada": "Cada prenda se teje una sola vez. No hay dos iguales: si te gusta una, es tuya. Escríbeme por WhatsApp y coordinamos directo conmigo.",
+    "bloque_titulo": "Lana de oveja, hilada y tejida a mano",
+    "bloque_texto": "Trabajo con lana natural de oveja: abriga más, dura años y no se pica como la lana industrial."
+  },
+  "sobremi": {
+    "titulo": "Hola, soy Nancy",
+    "parrafos": [
+      "Tejo desde que era niña, aprendiendo de las manos de mi mamá y de mi abuela. Empecé haciendo gorros para la casa y con los años se fue transformando en un oficio: hoy vivo de esto, despacio y a mano.",
+      "Trabajo con lana de oveja natural, del sur de Chile. Elijo la fibra, la hilo yo misma cuando puedo y tejo cada prenda sin apuro. No uso máquinas ni telas sintéticas: lo que ves es lana de verdad, y se nota en cómo abriga y en cómo envejece.",
+      "Como casi todas mis prendas son únicas, no tengo tienda con carrito. Prefiero conversar contigo: te cuento de qué está hecha, te mando fotos, y si te gusta, te la mando. Todo por WhatsApp, directo conmigo."
+    ],
+    "valores": [
+      "Lana de oveja natural, de origen local",
+      "Hilado y tejido a mano, sin máquinas industriales",
+      "Prendas únicas: cuando se va una, no vuelve",
+      "Encargos con tus medidas y tu color",
+      "Envíos a todo Chile"
+    ]
+  },
+  "recuadros": [
+    {
+      "titulo": "Piezas únicas",
+      "texto": "Cada prenda queda distinta a la anterior. Cuando se vende, no se repite."
+    },
+    {
+      "titulo": "Trato directo",
+      "texto": "Hablas conmigo, no con una tienda. Te respondo yo misma por WhatsApp."
+    },
+    {
+      "titulo": "Hecho en Chile",
+      "texto": "Tejido y cosido a mano, en la Patagonia."
+    }
+  ]
+}
