@@ -1,24 +1,10 @@
 {
   "portada": {
-    "titulo": "Tejidos hecho a mano.",
+    "titulo": "Tejidos en lana de oveja natural, hechos a mano",
     "bajada": "Cada prenda se teje una sola vez. No hay dos iguales: si te gusta una, es tuya. Escríbeme por WhatsApp y coordinamos directo conmigo.",
-    "bloque_titulo": "Lana de oveja con teñidos propios",
+    "bloque_titulo": "Lana de oveja, hilada y tejida a mano",
     "bloque_texto": "Trabajo con lana natural de oveja: abriga más, dura años y no se pica como la lana industrial."
   },
-  "recuadros": [
-    {
-      "titulo": "Piezas únicas",
-      "texto": "Cada prenda queda distinta a la anterior. Cuando se vende, no se repite."
-    },
-    {
-      "titulo": "Trato directo",
-      "texto": "Hablas conmigo, no con una tienda. Te respondo yo misma por WhatsApp."
-    },
-    {
-      "titulo": "Hecho en Chile",
-      "texto": "Tejido y cosido a mano, en la Patagonia."
-    }
-  ],
   "sobremi": {
     "titulo": "Hola, soy Nancy",
     "parrafos": [
@@ -33,5 +19,19 @@
       "Encargos con tus medidas y tu color",
       "Envíos a todo Chile"
     ]
-  }
+  },
+  "recuadros": [
+    {
+      "titulo": "Piezas únicas",
+      "texto": "Cada prenda queda distinta a la anterior. Cuando se vende, no se repite."
+    },
+    {
+      "titulo": "Trato directo",
+      "texto": "Hablas conmigo, no con una tienda. Te respondo yo misma por WhatsApp."
+    },
+    {
+      "titulo": "Hecho en Chile",
+      "texto": "Tejido y cosido a mano, en la Patagonia."
+    }
+  ]
 }

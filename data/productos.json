@@ -1,40 +1,37 @@
 {
   "items": [
     {
-      "nombre": "Falda Crochet",
-      "categoria": "otro",
-      "material": "100% Algodon.",
-      "precio": 48000,
-      "estado": "disponible",
-      "descripcion": "Falda de verano, especial para usar en la playa.",
-      "imagen": "/img/Falda-corchet-21-10.jpeg"
-    },
-    {
-      "nombre": "Chomba",
-      "categoria": "otro",
-      "material": "100% lana de oveja",
-      "precio": 65000,
-      "estado": "encargo",
-      "descripcion": "Tejido a palillo medio, con costuras en mangas.",
-      "imagen": "/img/chaleco-merino-2.png"
-    },
-    {
-      "nombre": "Polera Crochet",
-      "categoria": "otro",
-      "material": "100% algodon",
+      "nombre": "Chaleco trenzado",
+      "categoria": "chaleco",
+      "material": "Lana de oveja natural, teñido con cáscara de cebolla",
       "precio": 45000,
       "estado": "disponible",
-      "descripcion": "Pompón de lana cardada.",
-      "imagen": "/img/polera-crochet-21-10.jpeg"
+      "descripcion": "Tejido a palillo grueso, sin costuras laterales.",
+      "imagen": "chaleco-1.jpg"
     },
     {
-      "nombre": "Conjunto Crochet",
-      "categoria": "otro",
-      "material": "100% Algodon",
-      "precio": 110000,
+      "nombre": "Chal de abrigo",
+      "categoria": "chal",
+      "material": "Lana de oveja natural, hilado a mano",
+      "precio": 38000,
       "estado": "disponible",
-      "descripcion": "Tejido a crochet prenda unica.",
-      "imagen": "/img/Conjunto-21-10.jpeg"
+      "descripcion": "Punto amplio, liviano y muy abrigador."
+    },
+    {
+      "nombre": "Gorro con pompón",
+      "categoria": "gorro",
+      "material": "Lana de oveja natural",
+      "precio": 15000,
+      "estado": "disponible",
+      "descripcion": "Pompón de lana cardada."
+    },
+    {
+      "nombre": "Bufanda larga",
+      "categoria": "bufanda",
+      "material": "Lana de oveja natural",
+      "precio": 22000,
+      "estado": "disponible",
+      "descripcion": "Punto inglés, se puede usar cruzada."
     },
     {
       "nombre": "Manta de sofá",
@@ -42,8 +39,7 @@
       "material": "Lana de oveja natural, hilado artesanal",
       "precio": 85000,
       "estado": "disponible",
-      "descripcion": "Tejida en telar, medida aproximada 1,2 x 1,6 m.",
-      "imagen": ""
+      "descripcion": "Tejida en telar, medida aproximada 1,2 x 1,6 m."
     }
   ]
 }

@@ -634,3 +634,86 @@ section { padding: 68px 0; }
   .tarjeta-cuerpo { padding: 15px 16px 18px; }
   body { font-size: 16px; }
 }
+
+/* ============================================================
+   Estilo cálido y minimalista — pegar AL FINAL de style.css
+   ============================================================ */
+:root {
+  --crema: #FCFAF6;
+  --arena: #F4EEE4;
+  --lana: #E7DCCB;
+  --terracota: #A04E2B;
+  --cafe: #3E3027;
+  --cafe-suave: #7C6B5C;
+  --radio: 6px;
+  --sombra: none;
+  --sombra-hover: 0 8px 24px rgba(62, 48, 39, 0.08);
+}
+body { font-size: 16.5px; line-height: 1.7; }
+
+/* Navegación */
+.cabecera { background: rgba(252, 250, 246, 0.96); border-bottom: 1px solid var(--lana); }
+.menu a { letter-spacing: 0.03em; }
+
+/* Portada: fondo liso, más aire */
+.hero { background: var(--crema); padding: 96px 0 84px; }
+.hero h1 { font-weight: 400; letter-spacing: -0.01em; line-height: 1.12; }
+.hero .bajada { line-height: 1.75; }
+.hero-imagen { box-shadow: none; border-radius: var(--radio); }
+
+/* Secciones: respiración y una línea fina bajo cada título */
+section { padding: 88px 0; }
+.encabezado-seccion { margin-bottom: 56px; }
+.encabezado-seccion h2::after {
+  content: ""; display: block; width: 36px; height: 1px;
+  background: var(--terracota); margin: 18px auto 0;
+}
+
+/* Botones: más finos */
+.boton { padding: 12px 24px; font-size: 0.95rem; font-weight: 500; letter-spacing: 0.02em; }
+.boton:hover { transform: none; }
+.boton-wsp { box-shadow: none; }
+.boton-suave { background: transparent; border: 1px solid var(--lana); color: var(--cafe); }
+.boton-suave:hover { background: var(--arena); }
+
+/* Filtros */
+.filtro { font-size: 0.9rem; letter-spacing: 0.02em; }
+
+/* Tarjetas de tejidos: sin sombra, borde fino, foto vertical */
+.rejilla { gap: 40px 28px; }
+.tarjeta { background: transparent; border: 0; box-shadow: none; border-radius: 0; }
+.tarjeta:hover { transform: none; box-shadow: none; }
+.tarjeta-imagen { aspect-ratio: 4 / 5; border-radius: var(--radio); }
+.tarjeta:hover .tarjeta-imagen img { transform: scale(1.03); }
+.tarjeta-cuerpo { padding: 18px 2px 0; }
+.tarjeta-cuerpo h3 { font-size: 1.15rem; margin-bottom: 4px; }
+.tarjeta-cuerpo .material { margin-bottom: 8px; }
+.tarjeta-cuerpo .precio { font-size: 1.05rem; font-weight: 600; color: var(--cafe); margin-bottom: 14px; }
+.tarjeta-cuerpo .boton {
+  margin-top: 0; align-self: flex-start; justify-content: flex-start;
+  background: transparent; color: var(--terracota);
+  border: 1px solid var(--terracota); padding: 8px 18px; font-size: 0.88rem;
+}
+.tarjeta-cuerpo .boton:hover { background: var(--terracota); color: var(--blanco); box-shadow: none; }
+
+/* Etiqueta "pieza única": discreta */
+.etiqueta-unica {
+  background: rgba(252, 250, 246, 0.92); color: var(--cafe);
+  font-size: 0.68rem; letter-spacing: 0.12em; padding: 5px 10px; border-radius: 2px;
+}
+
+/* Foto pendiente: liso y discreto */
+.foto-vacia { background: var(--arena); font-size: 0.8rem; font-style: italic; letter-spacing: 0.02em; }
+.foto-vacia small { display: none; }
+
+/* Ferias, contacto y pie */
+.ficha-feria { box-shadow: none; border: 1px solid var(--lana); border-radius: var(--radio); }
+.contacto-caja { border-radius: var(--radio); }
+.pie { font-size: 0.9rem; }
+
+@media (max-width: 720px) {
+  .hero { padding: 56px 0 52px; }
+  section { padding: 60px 0; }
+  .encabezado-seccion { margin-bottom: 40px; }
+  .tarjeta-imagen { aspect-ratio: 1 / 1; }
+}
