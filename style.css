@@ -717,3 +717,28 @@ section { padding: 88px 0; }
   .encabezado-seccion { margin-bottom: 40px; }
   .tarjeta-imagen { aspect-ratio: 1 / 1; }
 }
+
+/* ============================================================
+   Colores vivos — pegar AL FINAL de style.css (después del bloque anterior)
+   ============================================================ */
+:root {
+  --crema: #FFF8EC;
+  --arena: #FFE9C9;
+  --lana: #F7CF9A;
+  --terracota: #C93F15;
+  --terracota2: #E85A22;
+  --cafe: #3A2418;
+  --cafe-suave: #7A4A33;
+  --verde: #1E8C6B;
+  --mostaza: #F2A81D;
+}
+.cabecera { background: rgba(255, 248, 236, 0.96); border-bottom: 1px solid var(--lana); }
+.hero { background: linear-gradient(135deg, #FFF1DA 0%, #FFD9AE 100%); }
+.encabezado-seccion h2::after { background: var(--mostaza); height: 3px; width: 44px; }
+.etiqueta-unica { background: var(--mostaza); color: var(--cafe); font-weight: 600; }
+.tarjeta-cuerpo .precio { color: var(--terracota); }
+.filtros { flex-wrap: wrap; justify-content: center; }
+.filtro.activo { background: var(--terracota); border-color: var(--terracota); color: var(--blanco); }
+.boton-suave { border-color: var(--terracota); color: var(--terracota); }
+.boton-suave:hover { background: var(--terracota); color: var(--blanco); }
+.foto-vacia { background: var(--arena); }
