@@ -5,21 +5,6 @@
     "bloque_titulo": "Lana de oveja, hilada y tejida a mano",
     "bloque_texto": "Trabajo con lana natural de oveja: abriga más, dura años y no se pica como la lana industrial."
   },
-  "sobremi": {
-    "titulo": "Hola, soy Nancy",
-    "parrafos": [
-      "Tejo desde que era niña, aprendiendo de las manos de mi mamá y de mi abuela. Empecé haciendo gorros para la casa y con los años se fue transformando en un oficio: hoy vivo de esto, despacio y a mano.",
-      "Trabajo con lana de oveja natural, del sur de Chile. Elijo la fibra, la hilo yo misma cuando puedo y tejo cada prenda sin apuro. No uso máquinas ni telas sintéticas: lo que ves es lana de verdad, y se nota en cómo abriga y en cómo envejece.",
-      "Como casi todas mis prendas son únicas, no tengo tienda con carrito. Prefiero conversar contigo: te cuento de qué está hecha, te mando fotos, y si te gusta, te la mando. Todo por WhatsApp, directo conmigo."
-    ],
-    "valores": [
-      "Lana de oveja natural, de origen local",
-      "Hilado y tejido a mano, sin máquinas industriales",
-      "Prendas únicas: cuando se va una, no vuelve",
-      "Encargos con tus medidas y tu color",
-      "Envíos a todo Chile"
-    ]
-  },
   "recuadros": [
     {
       "titulo": "Piezas únicas",
@@ -33,5 +18,20 @@
       "titulo": "Hecho en Chile",
       "texto": "Tejido y cosido a mano, en la Patagonia."
     }
-  ]
+  ],
+  "sobremi": {
+    "titulo": "Manos Creativas Patagonia Coyhaique — Nancy Saez",
+    "parrafos": [
+      "Tejo desde niña, aprendí mirando las manos de mi mamá y de mi abuela, quienes me transmitieron un oficio, pero sobre todo un amor profundo por lo hecho a mano.",
+      "Con el tiempo, ese aprendizaje se convirtió en mi camino de vida: hoy vivo de mi artesanía, creando despacio, con dedicación y el corazón puesto en cada pieza. Trabajo con lana de oveja natural del sur de Chile. Selecciono las fibras, preparo mis materiales y, cuando puedo, hilo mi propia lana. También tiño con mis propios colores, explorando los tonos de la naturaleza y rescatando tradiciones que forman parte de nuestra identidad patagónica y de la cultura de mis ancestros.",
+      "Cada prenda nace de mis manos, sin apuro, respetando los tiempos de la creación. No hay dos piezas iguales, porque cada tejido tiene su propia historia, su textura y la huella de quien lo hizo. Te invito a conocer mis creaciones, y si alguna te enamora, conversamos directo por WhatsApp. Me encantará contarte su historia y acompañarte en tu elección. Gracias por valorar lo hecho a mano y por ayudarme a mantener vivas las raíces de nuestra Patagonia. Y una sugerencia: que este texto vaya en la portada, debajo de una foto tuya trabajando con la lana, para que la gente no solo conozca tus productos, sino también a la artesana detrás de ellos."
+    ],
+    "valores": [
+      "Lana de oveja natural, de origen local",
+      "Hilado y tejido a mano, sin máquinas industriales",
+      "Prendas únicas: cuando se va una, no vuelve",
+      "Encargos con tus medidas y tu color",
+      "Envíos a todo Chile"
+    ]
+  }
 }
