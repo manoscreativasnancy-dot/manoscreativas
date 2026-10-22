@@ -310,18 +310,27 @@ function pintarFotoPrincipal() {
     const archivo = caja.getAttribute("data-foto");
     if (!archivo) return;
     const respaldo = caja.querySelector(".foto-vacia");
-    const img = new Image();
-
-    img.onload = () => {
-      caja.innerHTML = "";
-      caja.appendChild(img);
+ 
+    // Prueba el nombre indicado y otras extensiones comunes
+    const base = archivo.replace(/\.[^.]+$/, "");
+    const candidatas = [archivo, base + ".jpg", base + ".jpeg", base + ".png", base + ".webp", base + ".JPG", base + ".PNG"]
+      .filter((n, i, arr) => arr.indexOf(n) === i);
+ 
+    const probar = (i) => {
+      if (i >= candidatas.length) {
+        if (respaldo) respaldo.hidden = false;
+        return;
+      }
+      const img = new Image();
+      img.onload = () => {
+        caja.innerHTML = "";
+        caja.appendChild(img);
+      };
+      img.onerror = () => probar(i + 1);
+      img.alt = CONFIG.nombre;
+      img.src = "img/" + candidatas[i];
     };
-    img.onerror = () => {
-      if (respaldo) respaldo.hidden = false;
-    };
-    img.alt = CONFIG.nombre;
-    img.loading = "lazy";
-    img.src = "img/" + archivo;
+    probar(0);
   });
 }
 
