@@ -19,13 +19,13 @@
       "imagen": "/img/falda-crochet-24-10.jpeg"
     },
     {
-      "nombre": "Gorro con pompón",
-      "categoria": "gorro",
-      "material": "Lana de oveja natural",
-      "precio": 15000,
+      "nombre": "Crop Top",
+      "categoria": "ropa-playa",
+      "material": "100% Algodon",
+      "precio": 42000,
       "estado": "disponible",
-      "descripcion": "Pompón de lana cardada.",
-      "imagen": ""
+      "descripcion": "Tejido a Crochet",
+      "imagen": "/img/croptop-crochet-24-10.jpeg"
     },
     {
       "nombre": "Bufanda larga",
