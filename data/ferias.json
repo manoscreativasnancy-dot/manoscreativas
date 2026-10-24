@@ -7,16 +7,8 @@
       "nombre": "Feria de Artesanía de la Plaza",
       "lugar": "Plaza de Armas, Coyhaique",
       "descripcion": "Stand con prendas de lana de oveja natural, hilado propio.",
-      "futura": true
-    },
-    {
-      "fecha": "5 de diciembre 2026",
-      "mes": "Dic",
-      "dia": "5",
-      "nombre": "Expo Tejidos del Sur",
-      "lugar": "Gimnasio Municipal, Coyhaique",
-      "descripcion": "Feria de fin de año, con demostración de hilado en vivo.",
-      "futura": true
+      "futura": true,
+      "imagen": ""
     }
   ]
 }
