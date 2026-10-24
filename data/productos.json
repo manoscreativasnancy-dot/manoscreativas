@@ -37,13 +37,13 @@
       "imagen": "/img/conjunto-24-10.jpeg"
     },
     {
-      "nombre": "Manta de sofá",
-      "categoria": "otro",
-      "material": "Lana de oveja natural, hilado artesanal",
-      "precio": 85000,
+      "nombre": "Falda a Crochet",
+      "categoria": "ropa-playa",
+      "material": "100% Algodon",
+      "precio": 65000,
       "estado": "disponible",
-      "descripcion": "Tejida en telar, medida aproximada 1,2 x 1,6 m.",
-      "imagen": ""
+      "descripcion": "Tejido a crochet",
+      "imagen": "/img/faldalarga-crochet-24-10.jpeg"
     }
   ]
 }
