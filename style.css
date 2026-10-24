@@ -748,3 +748,13 @@ section { padding: 88px 0; }
 .logo img { height: 46px; width: auto; display: block; mix-blend-mode: multiply; }
 .cabecera .contenedor { padding-top: 6px; padding-bottom: 6px; }
 @media (max-width: 720px) { .logo img { height: 38px; } }
+/* ============================================================
+   Página "Mi libro"
+   ============================================================ */
+.libro-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 64px; align-items: center; }
+.libro-etiqueta { text-transform: uppercase; letter-spacing: 0.16em; font-size: 0.8rem; color: var(--terracota); font-weight: 600; margin-bottom: 10px; }
+.libro-titulo { font-family: var(--fuente-titulo); font-weight: 400; font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.12; color: var(--cafe); margin-bottom: 26px; }
+.libro-texto p { color: var(--cafe-suave); margin-bottom: 16px; }
+.libro-texto .boton { margin-top: 12px; }
+.libro-imagen img { width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 10px 30px rgba(62, 36, 24, 0.10); }
+@media (max-width: 860px) { .libro-grid { grid-template-columns: 1fr; gap: 36px; } .libro-imagen { order: -1; max-width: 460px; margin: 0 auto; } }
