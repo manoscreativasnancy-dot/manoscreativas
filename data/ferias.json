@@ -9,6 +9,16 @@
       "descripcion": "Stand con prendas de lana de oveja natural, hilado propio.",
       "futura": false,
       "imagen": ""
+    },
+    {
+      "fecha": "4 y 5 de diciembre",
+      "mes": "Dic",
+      "dia": "4-5",
+      "nombre": "Festival de la lana, tejiendo de norte a sur",
+      "lugar": "Centro cultural, Coyhaique.",
+      "descripcion": "Encuentro de tejedoras de chile",
+      "futura": true,
+      "imagen": ""
     }
   ]
 }
