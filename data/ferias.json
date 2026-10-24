@@ -7,7 +7,7 @@
       "nombre": "Flor de Fiesta",
       "lugar": "Parque Urbano Coyhaique",
       "descripcion": "Stand con prendas de lana de oveja natural, hilado propio.",
-      "futura": true,
+      "futura": false,
       "imagen": ""
     }
   ]
