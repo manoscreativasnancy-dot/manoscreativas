@@ -10,13 +10,13 @@
       "imagen": "/img/polera-crochet-24-10.jpeg"
     },
     {
-      "nombre": "Chal de abrigo",
-      "categoria": "otro",
-      "material": "Lana de oveja natural, hilado a mano",
-      "precio": 38000,
+      "nombre": "Falda a Crochet",
+      "categoria": "ropa-playa",
+      "material": "100% algodon",
+      "precio": 48000,
       "estado": "disponible",
-      "descripcion": "Punto amplio, liviano y muy abrigador.",
-      "imagen": ""
+      "descripcion": "Punto amplio, liviano y muy fresco para verano",
+      "imagen": "/img/falda-crochet-24-10.jpeg"
     },
     {
       "nombre": "Gorro con pompón",
