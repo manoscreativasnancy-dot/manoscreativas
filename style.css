@@ -742,3 +742,9 @@ section { padding: 88px 0; }
 .boton-suave { border-color: var(--terracota); color: var(--terracota); }
 .boton-suave:hover { background: var(--terracota); color: var(--blanco); }
 .foto-vacia { background: var(--arena); }
+/* ============================================================
+   Logo compacto en la cabecera — pegar AL FINAL de style.css
+   ============================================================ */
+.logo img { height: 46px; width: auto; display: block; mix-blend-mode: multiply; }
+.cabecera .contenedor { padding-top: 6px; padding-bottom: 6px; }
+@media (max-width: 720px) { .logo img { height: 38px; } }
